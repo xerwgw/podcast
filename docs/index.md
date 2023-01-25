@@ -11,7 +11,7 @@ hero:
       link: /podcasts
     - theme: brand
       text: Open Spotify
-      link: https://open.spotify.com/show/5pwBAjuJJAOt7cED5Lkjnk?si=e2ea7ba1112640ed
+      link: 
 
 features:
   - icon: 🍕

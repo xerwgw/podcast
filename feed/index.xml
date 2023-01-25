@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>ξερωγώ;</title>
+    <itunes:owner>
+        <itunes:email>xerwgw@askthelabel.com</itunes:email>
+    </itunes:owner>
+    <rawvoice:rating>TV-G</rawvoice:rating>
+    <rawvoice:location>Athens, Greece</rawvoice:location>
+    <rawvoice:frequency>bi-weekly</rawvoice:frequency>
+    <author>Bongo Impact, King Greedy</author>    
+    <itunes:author>Bongo Impact, King Greedy</itunes:author>
+    <itunes:category text="Improv" />
+    <description>Θεματολογία δεν υπάρχει για την ώρα, γενικά το βλέπουμε.</description>
+    <itunes:image href="https://raw.githubusercontent.com/xerwgw/podcast/main/docs/images/podcastLogo.png"/>
+    <language>el-el</language>
+    <link>https://xerwgw.github.io/podcast/</link>
+    <item>
+      <title>αλλαντικά και πίτσες</title>
+      <description>πρώτο επεισόδιο, γεια σας μάλλον θα έχει και συνέχεια ξερωγώ;</description>
+      <pubDate>Wed, 25 Jan 2023 15:30:00 GMT</pubDate>
+      <enclosure url="https://github.com/xerwgw/podcast/raw/main/audio/ep-1-allantika-kai-pizza.mp3"
+                 type="audio/mpeg" length="25814748"/>
+      <itunes:duration>17:50</itunes:duration>
+      <guid isPermaLink="false">xerwgw01</guid>
+    </item>
+
+  </channel>
+</rss>

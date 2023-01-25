@@ -1,6 +1,7 @@
 export default {
     title: 'ξερωγώ;',
     description: 'Το official website του Ξέρω Γώ; podcast',
+    base: '/podcast/',
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },

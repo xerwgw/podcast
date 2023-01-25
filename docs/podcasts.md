@@ -3,9 +3,7 @@
 # Πρώτο Επεισόδιο!
 ### 1 - Αλαντικά και Πίτσες
 #### Released: 25/1/2023
-<audio
-        controls
-        src="/audio/ep-1-allantika-kai-pizza.mp3"></audio>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1PlqFEJpmbadSBAuSmpato?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <br /><br />
 
 <!-- ## Όλα τα επεισόδια

@@ -10,9 +10,9 @@
     <itunes:author>Bongo Impact, King Greedy</itunes:author>
     <itunes:category text="Improv" />
     <description>Θεματολογία δεν υπάρχει για την ώρα, γενικά το βλέπουμε.</description>
-    <itunes:image href="https://raw.githubusercontent.com/xerwgw/podcast/main/docs/images/podcastLogo.png"/>
+    <itunes:image href="https://xerwgwpodcast.netlify.app/podcastLogo.png"/>
     <language>el-el</language>
-    <link>https://xerwgw.github.io/podcast/</link>
+    <link>https://xerwgwpodcast.netlify.app/</link>
     <item>
       <title>αλλαντικά και πίτσες</title>
       <description>πρώτο επεισόδιο, γεια σας μάλλον θα έχει και συνέχεια ξερωγώ;</description>

@@ -11,11 +11,11 @@
     <itunes:category text="Improv" />
     <itunes:explicit>yes</itunes:explicit>
     <description>Θεματολογία δεν υπάρχει για την ώρα, γενικά το βλέπουμε.</description>
-    <itunes:image href="https://xerwgwpodcast.netlify.app/podcastLogo.png"/>
+    <itunes:image href="https://xerwgwpodcast.netlify.app/podcastLogo-HighRes.png"/>
     <language>el-el</language>
     <link>https://xerwgwpodcast.netlify.app/</link>
     <item>
-      <title>αλλαντικά και πίτσες</title>
+      <title>αλλαντικά και πίτσες / 1#ξερωγώ;</title>
       <description>πρώτο επεισόδιο, γεια σας μάλλον θα έχει και συνέχεια ξερωγώ;</description>
       <pubDate>Wed, 25 Jan 2023 15:30:00 GMT</pubDate>
       <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-1-allantika-kai-pizza.mp3"

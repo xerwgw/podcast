@@ -24,5 +24,22 @@
       <itunes:duration>17:50</itunes:duration>
       <guid isPermaLink="false">xerwgw01</guid>
     </item>
+    <item>
+      <title>τυριά και δράκοι / 2#ξερωγώ;</title>
+      <description>
+        μιλάμε για την άνιμε ταινία belle, τα αγαπημένα μας τυριά και το Dragon's Den<br>
+        κάντε μας follow στο tiktok για highlights @xerwgw_podcast
+        <br>
+        τα προσωπικά μας:<br>
+        Instagrams: @king_greedy_ @bondo_impact<br>
+        TikTok: @king_greedy @bongo_impact<br>
+      </description>
+      <pubDate>Wed, 31 Jan 2023 18:18:00 GMT</pubDate>
+      <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-2-tiria-kai-drakoi.mp3"
+                 type="audio/mpeg" length="37341146"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/podcastLogo.png"/>
+      <itunes:duration>25:57</itunes:duration>
+      <guid isPermaLink="false">xerwgw02</guid>
+    </item>
   </channel>
 </rss>

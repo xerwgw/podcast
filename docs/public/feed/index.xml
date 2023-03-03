@@ -41,5 +41,22 @@
       <itunes:duration>25:57</itunes:duration>
       <guid isPermaLink="false">xerwgw02</guid>
     </item>
+    <item>
+      <title>πασχαλινό καρναβάλι / 3#ξερωγώ;</title>
+      <description>
+        μιλάμε για το καρναβαλι, για spicy καταστάσεις, και για τις αγαπημένες μας γιορτές.<br />
+        κάντε μας follow στο tiktok για highlights <a href="https://www.tiktok.com/@xerwgw_podcast">@xerwgw_podcast</a>
+        <br />
+        τα προσωπικά μας:<br />
+        Instagrams: <a href="https://www.instagram.com/king_greedy_/">@king_greedy_</a> <a href="https://www.instagram.com/bongo_impact/">@bongo_impact</a><br />
+        TikTok: <a href="https://www.tiktok.com/@king_greedy">@king_greedy</a> <a href="https://www.tiktok.com/@bongo_impact">@bongo_impact</a><br />
+      </description>
+      <pubDate>Tue, 31 Jan 2023 18:18:00 GMT</pubDate>
+      <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-3-pasxalino-karnavali.mp3"
+                 type="audio/mpeg" length="32862460"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/podcastLogo.png"/>
+      <itunes:duration>22:50</itunes:duration>
+      <guid isPermaLink="false">xerwgw03</guid>
+    </item>
   </channel>
 </rss>

@@ -58,5 +58,23 @@
       <itunes:duration>22:50</itunes:duration>
       <guid isPermaLink="false">xerwgw03</guid>
     </item>
+    <item>
+      <title>οργασμικο μανιφεστ ingame / 4#ξερωγώ;</title>
+      <description>
+        σχολιαζουμε τη μεθοδο του οργασμικου μανιφεστ, μιλαμε λιγο για σχεσεις<br />
+        και κλεινουμε στο τελευταιο 10 λεπτο με λιγα λογια για το Hogwarts Legacy
+        κάντε μας follow στο tiktok για highlights <a href="https://www.tiktok.com/@xerwgw_podcast">@xerwgw_podcast</a>
+        <br />
+        τα προσωπικά μας:<br />
+        Instagrams: <a href="https://www.instagram.com/king_greedy_/">@king_greedy_</a> <a href="https://www.instagram.com/bongo_impact/">@bongo_impact</a><br />
+        TikTok: <a href="https://www.tiktok.com/@king_greedy">@king_greedy</a> <a href="https://www.tiktok.com/@bongo_impact">@bongo_impact</a><br />
+      </description>
+      <pubDate>Fri, 17 Mar 2023 10:32:00 GMT</pubDate>
+      <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-4-orgasmiko-manifest-ingame.mp3"
+                 type="audio/mpeg" length="51433096"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/podcastLogo.png"/>
+      <itunes:duration>35:45</itunes:duration>
+      <guid isPermaLink="false">xerwgw04</guid>
+    </item>
   </channel>
 </rss>

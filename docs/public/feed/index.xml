@@ -20,7 +20,7 @@
       <pubDate>Wed, 25 Jan 2023 15:30:00 GMT</pubDate>
       <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-1-allantika-kai-pizza.mp3"
                  type="audio/mpeg" length="25814748"/>
-      <itunes:image href="https://xerwgwpodcast.netlify.app/images/episode-1.png"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/episode-covers/1alantika kai pizzes.png"/>
       <itunes:duration>17:50</itunes:duration>
       <guid isPermaLink="false">xerwgw01</guid>
     </item>
@@ -37,7 +37,7 @@
       <pubDate>Tue, 31 Jan 2023 18:18:00 GMT</pubDate>
       <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-2-tiria-kai-drakoi.mp3"
                  type="audio/mpeg" length="37341146"/>
-      <itunes:image href="https://xerwgwpodcast.netlify.app/images/podcastLogo.png"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/episode-covers/2tiriakaidrakoi.png"/>
       <itunes:duration>25:57</itunes:duration>
       <guid isPermaLink="false">xerwgw02</guid>
     </item>
@@ -54,7 +54,7 @@
       <pubDate>Fri, 3 Mar 2023 14:35:00 GMT</pubDate>
       <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-3-pasxalino-karnavali_dn.mp3"
                  type="audio/mpeg" length="32862460"/>
-      <itunes:image href="https://xerwgwpodcast.netlify.app/images/podcastLogo.png"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/episode-covers/3pasxalino karnavali.png"/>
       <itunes:duration>22:50</itunes:duration>
       <guid isPermaLink="false">xerwgw03</guid>
     </item>
@@ -72,7 +72,7 @@
       <pubDate>Fri, 17 Mar 2023 10:32:00 GMT</pubDate>
       <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-4-orgasmiko-manifest-ingame.mp3"
                  type="audio/mpeg" length="51433096"/>
-      <itunes:image href="https://xerwgwpodcast.netlify.app/images/podcastLogo.png"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/episode-covers/4manifestgame.png"/>
       <itunes:duration>35:45</itunes:duration>
       <guid isPermaLink="false">xerwgw04</guid>
     </item>

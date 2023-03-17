@@ -3,13 +3,12 @@
 # Πρώτο Επεισόδιο!
 ### 4 - Οργασμικό Μάνιφεστ Ingame
 #### Released: 17/3/2023
-### TBR
-<!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2lS3AHXX0yCliLk7orQVIg?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6lmjh9arqXuOHfY4yNmRhG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <br /><br />
 
 ### 3 - Πασχαλινό Καρναβάλι
 #### Released: 3/3/2023
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2lS3AHXX0yCliLk7orQVIg?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6jzx5B2CbazGU93MKl1ax9?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <br /><br />
 
 ### 2 - Τυριά και Δράκοι

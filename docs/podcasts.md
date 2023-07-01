@@ -49,12 +49,10 @@ function checkListenedStatus(guid) {
 
 function updateTimeStamp(item, event) {
     const time = event.target.currentTime;
-    console.log(item)
     VueCookies.set(item.guid+'time', time, '365d');
 }
 
 function checkAudioEnd(guid) {
-    console.log('Ended')
     VueCookies.remove(guid+'time');
     this.markAsListened(guid);
 }
@@ -83,11 +81,9 @@ onMounted(async ()=>{
     }
 
         await nextTick(()=>{
-        console.log()
         audioels.value.map((el, i)=>{
           let savedTime = VueCookies.get(el.id);
           if (savedTime) {
-              console.log(el)
              audioels.value[i].currentTime = savedTime;
           }
         })

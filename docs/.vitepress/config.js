@@ -8,4 +8,18 @@ export default {
         // { text: 'External', link: 'https://google.com' },
       ],
     },
+    head: [
+      [
+        'script',
+        {
+          async: true,
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-7XQVKX6RHR',
+        },
+      ],
+      [
+        'script',
+        {},
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-7XQVKX6RHR');",
+      ],
+    ],
   };

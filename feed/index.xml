@@ -136,5 +136,27 @@
       <itunes:duration>50:35</itunes:duration>
       <guid isPermaLink="false">xerwgw07</guid>
     </item>
+    <item>
+      <title>Trash TV και Rebrand / 8#ξερωγώ;</title>
+      <description>
+        Παρατράγουδα, Πετρούλα και πολλά άλλα! <br />
+        Το μεγαλύτερο μας μέχρι τώρα! 1 φακιν ώρα επεισόδιο! <br />
+        Μιλάμε για τη χρυσή περίοδο της ελληνικής trash τηλεόρασης <br />
+        αφου γίνει αυτή η πρώτη συζήτηση ο Νίκος παθαίνει μια μικρή κρίση <br />
+        ταυτότητας για το πώς κάπιος μπορεί να κάνει reband τον εαυτό του εαν<br />
+        έχει παίξει σε κάποια απο αυτές τις εκπομές, ή έχει ξεκινήσει τη public καριέρα του ώς κάτι άλλο.<br />
+        κάντε μας follow στο tiktok για highlights <a href="https://www.tiktok.com/@xerwgw_podcast">@xerwgw_podcast</a>
+        <br />
+        τα προσωπικά μας:<br />
+        Instagrams: <a href="https://www.instagram.com/king_greedy_/">@king_greedy_</a> <a href="https://www.instagram.com/bongo_impact/">@bongo_impact</a><br />
+        TikTok: <a href="https://www.tiktok.com/@king_greedy">@king_greedy</a> <a href="https://www.tiktok.com/@bongo_impact">@bongo_impact</a><br />
+      </description>
+      <pubDate>Fri, 1 Jul 2023 11:25:00 GMT</pubDate>
+      <enclosure url="https://xerwgwpodcast.netlify.app/audio/ep-8-trashtv-kai-rebrand.mp3"
+                 type="audio/mpeg" length="87126712"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/episode-covers/ep-8-trashtv-kai-rebrand.png"/>
+      <itunes:duration>1:00:35</itunes:duration>
+      <guid isPermaLink="false">xerwgw08</guid>
+    </item>
   </channel>
 </rss>

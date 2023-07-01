@@ -17,7 +17,7 @@ hero:
 <h1 style="font-size:24pt;font-weight:500;margin-bottom:0.6em;">Πρόσφατο Επεισόδιο</h1>
 </div>
 <div class="container">
-    <div class="episode" v-for="item in items" :key="item.guid" v-bind:class="{ listened: !item.listened }">
+    <div class="episode" v-for="item in items" :id="item.guid" :key="item.guid" v-bind:class="{ listened: !item.listened }">
       <div class="column">
         <input type="checkbox" v-model="item.listened" @change="markAsListened(item)" /> Το χω ακούσει
         <img class="cover-image" :src="item.image" alt="Episode cover" />
@@ -25,7 +25,7 @@ hero:
       <div class="column">
         <h2 class="episode-title">{{ item.title }}</h2>
         <p class="episode-pubDate">{{ item.pubDate }}</p>
-        <audio controls @ended="checkAudioEnd(item)">
+        <audio ref="audioel" controls @timeupdate="updateTimeStamp(item, $event)" @ended="checkAudioEnd(item)">
           <source :src="item.audio" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
@@ -38,14 +38,21 @@ hero:
 
   
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, nextTick } from 'vue'
 import VueCookies from 'vue-cookies';
 import axios from 'axios';
 const items = ref([])
 const count = ref(0)
+const audioel = ref(null);
 
 function showItems(){
     console.log(items)
+}
+
+function updateTimeStamp(item, event) {
+    const time = event.target.currentTime;
+    console.log(time)
+    VueCookies.set(item.guid+'time', time, '365d');
 }
 
 function getExcerpt(description) {
@@ -67,6 +74,7 @@ function checkListenedStatus(guid) {
 
 function checkAudioEnd(guid) {
     console.log('Ended')
+    VueCookies.remove(guid+'time');
     this.markAsListened(guid);
 }
 
@@ -79,19 +87,29 @@ onMounted(async ()=>{
     const xmlItems = xmlDoc.getElementsByTagName("item");
 
 
-      const xmlItem = xmlItems[xmlItems.length-1];
-      const title = xmlItem.getElementsByTagName('title')[0].textContent;
-      const description = xmlItem.getElementsByTagName('description')[0].textContent;
-      const pubDate = xmlItem.getElementsByTagName('pubDate')[0].textContent;
-      const image = xmlItem.getElementsByTagName('itunes:image')[0].getAttribute('href');
-      const audio = xmlItem.getElementsByTagName('enclosure')[0].getAttribute('url');
-      const guid = xmlItem.getElementsByTagName('guid')[0].textContent;
-      
-      items.value.push({ title, description, pubDate,
-       image, guid, audio, showFullDescription:false,
-        listened: checkListenedStatus(guid)
-      });
+    const xmlItem = xmlItems[xmlItems.length-1];
+    const title = xmlItem.getElementsByTagName('title')[0].textContent;
+    const description = xmlItem.getElementsByTagName('description')[0].textContent;
+    const pubDate = xmlItem.getElementsByTagName('pubDate')[0].textContent;
+    const image = xmlItem.getElementsByTagName('itunes:image')[0].getAttribute('href');
+    const audio = xmlItem.getElementsByTagName('enclosure')[0].getAttribute('url');
+    const guid = xmlItem.getElementsByTagName('guid')[0].textContent;
     
+    items.value.push({ title, description, pubDate,
+      image, guid, audio, showFullDescription:false,
+      listened: checkListenedStatus(guid)
+    });
+    
+    await nextTick(()=>{
+        items.value.forEach(item => {
+          console.log(audioel.value[0].currentTime);
+          let savedTime = VueCookies.get(item.guid+'time');
+          console.log(savedTime)
+          if (savedTime) {
+             audioel.value[0].currentTime = savedTime;
+          }
+      });
+    })
 })
 </script>
 

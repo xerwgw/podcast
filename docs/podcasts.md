@@ -7,7 +7,7 @@
         <img class="cover-image" :src="item.image" alt="Episode cover" />
         <h2 class="episode-title">{{ item.title }}</h2>
         <p class="episode-pubDate">{{ item.pubDate }}</p>
-        <audio controls @ended="checkAudioEnd(item)">
+        <audio ref="audioels" :id="item.guid+'time'" controls @timeupdate="updateTimeStamp(item, $event)" @ended="checkAudioEnd(item)">
         <source :src="item.audio" type="audio/mpeg">
         Your browser does not support the audio element.
         </audio>
@@ -19,11 +19,12 @@
 </div>
   
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, nextTick } from 'vue'
 import VueCookies from 'vue-cookies';
 import axios from 'axios';
 const items = ref([])
 const count = ref(0)
+const audioels = ref([]);
 
 function showItems(){
     console.log(items)
@@ -46,8 +47,15 @@ function checkListenedStatus(guid) {
     return VueCookies.get(guid);
 }
 
+function updateTimeStamp(item, event) {
+    const time = event.target.currentTime;
+    console.log(item)
+    VueCookies.set(item.guid+'time', time, '365d');
+}
+
 function checkAudioEnd(guid) {
     console.log('Ended')
+    VueCookies.remove(guid+'time');
     this.markAsListened(guid);
 }
 
@@ -73,6 +81,19 @@ onMounted(async ()=>{
         listened: checkListenedStatus(guid)
       });
     }
+
+        await nextTick(()=>{
+        console.log()
+        audioels.value.map((el, i)=>{
+          let savedTime = VueCookies.get(el.id);
+          if (savedTime) {
+              console.log(el)
+             audioels.value[i].currentTime = savedTime;
+          }
+        })
+
+    })
+
 })
 </script>
 

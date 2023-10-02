@@ -158,5 +158,25 @@
       <itunes:duration>1:00:35</itunes:duration>
       <guid isPermaLink="false">xerwgw08</guid>
     </item>
+    <item>
+      <title>Εθισμός και One Piece (guest Μιχάλης Σκούρας) / 9#ξερωγώ;</title>
+      <description>
+        Σεζόν 2! Ποιος να το περίμενε; <br />
+        Σε αυτο το επεισόδιο μιλάμε για τους μικρο-εθισμούς του καλοκαιριού που πέρασαμε <br />
+        Ο Νίκος προσπαθεί να με μικροεθίσει στο One Piece TCG <br />
+        και έχουμε guest έκπληξη το Μιχάλη Σκούρα που θα μας μιλήσει για το δικό του μικροεθισμό <br />
+        κάντε μας follow στο tiktok για highlights <a href="https://www.tiktok.com/@xerwgw_podcast">@xerwgw_podcast</a>
+        <br />
+        τα προσωπικά μας:<br />
+        Instagrams: <a href="https://www.instagram.com/king_greedy_/">@king_greedy_</a> <a href="https://www.instagram.com/bongo_impact/">@bongo_impact</a><br />
+        TikTok: <a href="https://www.tiktok.com/@king_greedy">@king_greedy</a> <a href="https://www.tiktok.com/@bongo_impact">@bongo_impact</a><br />
+      </description>
+      <pubDate>Mon, 2 Oct 2023 12:05:00 GMT</pubDate>
+      <enclosure url="https://xerwgwpodcast.netlify.app/audio/s-2-ep-1-ethismoi-kai-onepiece-feat-mihalis-skouras.mp3"
+                 type="audio/mpeg" length="62006102"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/s-2-ep-1-ethismoi-kai-onepiece-feat-mihalis-skouras.png"/>
+      <itunes:duration>43:06</itunes:duration>
+      <guid isPermaLink="false">xerwgw09</guid>
+    </item>
   </channel>
 </rss>

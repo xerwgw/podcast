@@ -178,5 +178,27 @@
       <itunes:duration>43:06</itunes:duration>
       <guid isPermaLink="false">xerwgw09</guid>
     </item>
+    <item>
+      <title>GTA 6 - Anime - ΝΕΥΡΑ / 10#ξερωγώ;</title>
+      <description>
+        Πάμε λίγο επεισόδιο 2!<br />
+        Είδαμε το wrapped του podcast!<br />
+        Σε αυτο το επεισόδιο μιλάμε για το τι θα μπορούσε να γίνει στο GTA 6 <br />
+        Πόσο κοντά στο metaverse είναι το fortnite? <br />
+        Μιζέρια στη δουλεία και διαφορές με Ιταλία (πήγε ο bongo) <br />
+        Random rant για dnd και βιντεο games.<br />
+        κάντε μας follow στο tiktok για highlights <a href="https://www.tiktok.com/@xerwgw_podcast">@xerwgw_podcast</a>
+        <br />
+        τα προσωπικά μας:<br />
+        Instagrams: <a href="https://www.instagram.com/king_greedy_/">@king_greedy_</a> <a href="https://www.instagram.com/bongo_impact/">@bongo_impact</a><br />
+        TikTok: <a href="https://www.tiktok.com/@king_greedy">@king_greedy</a> <a href="https://www.tiktok.com/@bongo_impact">@bongo_impact</a><br />
+      </description>
+      <pubDate>Fri, 5 Jan 2024 21:45:00 GMT</pubDate>
+      <enclosure url="https://xerwgwpodcast.netlify.app/audio/s-2-ep-2-gta6-anime-nevra.mp3"
+                 type="audio/mpeg" length="76369278"/>
+      <itunes:image href="https://xerwgwpodcast.netlify.app/images/episode-covers/s-2-ep-2-gta6-anime-nevra.png"/>
+      <itunes:duration>53:06</itunes:duration>
+      <guid isPermaLink="false">xerwgw10</guid>
+    </item>
   </channel>
 </rss>
